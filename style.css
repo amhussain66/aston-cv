@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cookie&family=Ruda:wght@500&display=swap");
+
+/* Main  ------------------------------------------------------------------------ */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Ruda", sans-serif;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(236, 238, 237);
+    margin: 0px auto;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(129, 96, 72);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo   ------------------------------------------------------------------------*/
+.logo {
+    font-family: "Ruda", sans-serif;
+}
+
+/* Nav Style   ------------------------------------------------------------------------*/
+.banner {
+    width: 100%;
+    background-color: rgb(215, 210, 197);
+
+}
+
+.navbar {
+    font-size: 16px;
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: rgb(175, 147, 117);
+    text-decoration: none;
+
+}
+
+
+/* Log In / Register  ------------------------------------------------------------------------ */
+.card {
+    color: rgb(115, 146, 112);
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-h1 {
+    margin-bottom: 20px;
+}
+
+.form {
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+    margin-top: 80px;
+}
+
+
+.text input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(101, 122, 96);
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+
+#loginb,
+#registerb {
+
+    width: 65%;
+    display: inline-block;
+    padding: 9px 20px;
+    color: rgb(129, 96, 72);
+    background-color: rgb(207, 215, 204);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+#loginb:hover {
+    background-color: rgb(101, 122, 96);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+#registerb:hover {
+    background-color: rgb(101, 122, 96);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+
+/* index  ------------------------------------------------------------------------  */
+.cvs {
+    padding: 40px;
+    text-align: center;
+    height: 200px;
+    margin: 100px 40px;
+}
+
+
+#cv {
+    width: 50%;
+    display: inline-block;
+    padding: 20px 40px;
+    color: rgb(129, 96, 72);
+    background-color: rgb(207, 215, 204);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cv:hover {
+    background-color: rgb(101, 122, 96);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+/* CVS  ------------------------------------------------------------------------  */
+
+table,
+th,
+td {
+    border-style: solid;
+    padding: 10px 10px;
+}
+
+#myTable {
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* UPDATECVS  ------------------------------------------------------------------------  */
+
+.cv {
+    padding: 20px 50px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inputs {
+    padding: 20px;
+    background-color: rgb(173, 189, 169);
+    border-radius: 20px;
+}
+
+input, #textarea, #edu {
+  background-color: rgb(215, 210, 197);
+  border: 2px solid rgb(101, 122, 96);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+label{
+    font-size: 16px;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+}
+.create-h1{
+    margin-bottom: 10px;
+}
+
+#save-button {
+    width: 65%;
+    display: inline-block;
+    padding: 9px 20px;
+    color: rgb(129, 96, 72);
+    background-color: rgb(207, 215, 204);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#save-button:hover {
+    background-color: rgb(101, 122, 96);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+
+#textarea {
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgb(101, 122, 96);
+    border-radius: 5px;
+
+}
+
+#edu {
+    height: 80px;
+}
